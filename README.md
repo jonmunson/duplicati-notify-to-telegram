@@ -45,7 +45,7 @@ services:
       - TZ=Europe/Berlin
       - TELEGRAM_TOKEN=<YOUR TELEGRAM TOKEN>
       - TELEGRAM_CHATID=<YOUR TELEGRAM CHAT ID>
-      - SCRIPT_URL=https://raw.githubusercontent.com/oxystin/duplicati-notify-to-telegram/main/notify_to_telegram.sh
+      - SCRIPT_URL=https://raw.githubusercontent.com/jonmunson/duplicati-notify-to-telegram/main/notify_to_telegram.sh
     volumes:
       - </path/to/config>:/config
       - </path/to/script>:/script
